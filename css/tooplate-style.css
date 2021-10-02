@@ -645,7 +645,6 @@ b, strong {
 }
 
 .paint {
-  background-image: url("/images/project/paint.png");
   position: absolute;
   opacity: 0.3;
   filter: grayscale(100%);
