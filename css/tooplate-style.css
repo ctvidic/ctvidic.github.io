@@ -119,7 +119,7 @@ b, strong {
 }
 
 .animated-item {
-  color: #ffc200;
+  color: rgb(47, 120, 255);
 }
 
 .animated-item {
@@ -576,7 +576,7 @@ b, strong {
 
 #logosLinkBottom svg{
     z-index: 1000;
-    color: black;
+    color: #0d0c15;
     z-index: 100;
     width: 40px;
     height: 40px;
@@ -585,7 +585,7 @@ b, strong {
 #logosGitBottom svg{
     z-index: 1000;
     z-index: 100;
-        width: 40px;
+    width: 40px;
     height: 40px;
 }
 
@@ -608,4 +608,46 @@ b, strong {
 }
 .skills-li{
   width: 25%;
+}
+
+
+
+/* .paint:after {
+  animation: grain 8s steps(10) infinite;
+  background-image: url("/path/to/grainy/image.jpg");
+  content: "";
+  height: 300%;
+  left: -50%;
+  opacity: 0.3;
+  position: fixed;
+  top: -100%;
+  width: 300%;
+}
+
+@keyframes grain {
+  0%, 100% { transform:translate(0, 0) }
+  10% { transform:translate(-5%, -10%) }
+  20% { transform:translate(-15%, 5%) }
+  30% { transform:translate(7%, -25%) }
+  40% { transform:translate(-5%, 25%) }
+  50% { transform:translate(-15%, 10%) }
+  60% { transform:translate(15%, 0%) }
+  70% { transform:translate(0%, 15%) }
+  80% { transform:translate(3%, 35%) }
+  90% { transform:translate(-10%, 10%) }
+} */
+
+.about-text p{
+  background: white;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.paint {
+  background-image: url("/images/project/paint.png");
+  position: absolute;
+  opacity: 0.3;
+  filter: grayscale(100%);
+  width: 60%;
+  min-width: 600px;
 }
