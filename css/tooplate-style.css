@@ -596,6 +596,20 @@ b, strong {
   margin-left: 5px ;
 
 }
+.linksA svg{
+  width:60px !important;
+  color: rgb(47, 120, 255);
+  transform: scale(.7);
+}
+
+.linksA svg path{
+  color: rgb(47, 120, 255);
+  fill: rgb(47, 120, 255);
+}
+
+.linksA{
+  color: rgb(47, 120, 255);
+}
 .skills-ul{
   display: flex;
   flex-direction: row;
