@@ -141,6 +141,7 @@ b, strong {
   animation-delay: 4s;
 }
 
+
 @keyframes BottomTotop {
   0% {
     opacity: 0;
@@ -650,4 +651,5 @@ b, strong {
   filter: grayscale(100%);
   width: 60%;
   min-width: 600px;
+  max-height: 700px;
 }
