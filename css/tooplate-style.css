@@ -429,7 +429,6 @@ b, strong {
   outline: none;
   box-shadow: none;
   font-weight: bold;
-  margin: 16px 0;
 }
 .contact-form .form-control:not(textarea) {
   height: 48px;
@@ -625,7 +624,10 @@ b, strong {
   width: 25%;
 }
 
-
+.profImage img{
+  width: 200px !important;
+  padding-top: 1em;
+}
 
 /* .paint:after {
   animation: grain 8s steps(10) infinite;
@@ -665,4 +667,49 @@ b, strong {
   width: 60%;
   min-width: 600px;
   max-height: 700px;
+}
+
+.self-draw-anim {
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}
+
+.self-draw-anim__label {
+  position: relative;
+  z-index: 2;
+  font-size: 40px;
+  color: #353535;
+  font-weight: bolder;
+}
+
+.self-draw-anim__decoration {
+  pointer-events: none;
+  max-width: none;
+  
+  position: absolute;
+  z-index: 1;
+  top: -6px;
+  left: -12px;
+
+  display: block;
+  width: calc(100% + 24px);
+  height: calc(100% + 12px);
+}
+
+.self-draw-anim__decoration > * {
+  --path-lenght: 367;
+  stroke-width: 2px;
+  stroke-dasharray: var(--path-lenght);
+  stroke-dashoffset: var(--path-lenght);
+  transition: stroke-dashoffset .5s;
+}
+
+.self-draw-anim:hover .self-draw-anim__decoration > * {
+  stroke-dashoffset: 0;
+}
+
+.row{
+  display:flex;
+  justify-content: center;
 }
